@@ -1,5 +1,17 @@
-# Vue 3 + Vite
+# Privacy-First Therapist LLM
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Therapist LLM is a web application that simulates a therapeutic conversation with an AI assistant.
+It is local only, thanks to the amazing work of [web-llm](https://github.com/mlc-ai/web-llm).
+
+## Features
+
+* Therapeutic Conversations: Engage in conversations with an AI assistant that acts like a therapist.
+* Existential Therapy Principles: The AI assistant uses principles and practices of existential therapy.
+* Real-time Chat: Real-time chat interface with typing indicators and message loading states.
+* Privacy First: No input data is shared with any cloud computation.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
