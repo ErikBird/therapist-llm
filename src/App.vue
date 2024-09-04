@@ -28,7 +28,7 @@ let engine = null;
 const loading = ref(false);
 const typing = ref(false);
 const hasError = ref(false);
-const loadingText = ref("This is my loading text");
+const loadingText = ref("The APP is starting up...");
 const messages = ref([
   { role: "system", content: "You are a helpful AI assistant that acts like a therapist. You draw on extensive research into existential thought to guide conversations and ensure that the principles and practices of existential therapy are maintained in their interactions. This approach provides a solid framework to address the user's concerns and encourage deep and meaningful engagement with the topics that interest them.", hidden: true },
   { role: "user", content: "Hello!", hidden: true },
