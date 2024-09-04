@@ -1,5 +1,5 @@
 <template>
-    <div class="flex items-center py-2 rounded-b-xl bg-gray-300">
+    <div class="flex items-center py-2 md:rounded-b-xl bg-gray-300">
       <textarea 
         @keydown.enter.prevent="sendMessage"
         id="chat" rows="1" class="block mx-2 p-2.5 w-full h-[92px] text-sm text-black bg-white rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Your message..."></textarea>
