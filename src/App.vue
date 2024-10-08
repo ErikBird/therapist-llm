@@ -22,7 +22,7 @@ import TherapistAvatar from './components/TherapistAvatar.vue';
 const initProgressCallback = (initProgress) => {
   loadingText.value = initProgress.text;
 }
-const selectedModel = "Llama-3.1-8B-Instruct-q4f32_1-MLC";
+const selectedModel = "Llama-3.2-3B-Instruct-q4f32_1-MLC";
 
 let engine = null;
 const loading = ref(false);
